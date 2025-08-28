@@ -1,0 +1,8 @@
+2. On your new Zorin OS system:
+    - Install git: sudo apt install git -y
+    - Clone repo: git clone [your-repo-url] ~/dotfiles
+    - Run setup: cd ~/dotfiles && chmod +x setup.sh && ./setup.sh
+  3. After successful migration:
+    - Remove SSH keys from the repository for security
+    - Test all functionality
+
